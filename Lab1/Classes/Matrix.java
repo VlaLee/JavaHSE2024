@@ -2,7 +2,6 @@ package Lab1.Classes;
 
 import Lab1.Exceptions.MatrixDeterminantException;
 import Lab1.Exceptions.MatrixDimensionException;
-import package_1.package_2.package_3.C;
 
 public class Matrix implements MathematicalObject<Matrix> {
     private final int rows, cols;
