@@ -57,6 +57,7 @@ public class Main {
             return;
         }
 
+        // Создаем второй словарь, в который копируем данные из первого словаря
         FrequencyFileDictionary frequencyDictionary2 = new FrequencyFileDictionary(frequencyDictionary1,
                 fileNameToRead, fileNameToWrite);
 
